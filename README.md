@@ -1,16 +1,16 @@
-## About Laravel 7 Starter APP
+## About Transaction Laravel 7
 
 Laravel 7 Starter App & admin LTE 3
 
 ## Installasi
 - Download repository dan ekstrak atau clone repository
 	```sh
-	$ git clone https://github.com/isengoding/lara7-starterapp.git
+	$ git clone https://github.com/denisuryadi26/transaction.git
 	```
 - Masuk ke direktori aplikasi dan jalankan composer
 	```sh
-	$ cd lara7-starterapp
-	$ composer install
+	$ cd transaction
+	$ composer update
 	```
  - Copy file .env.example menjadi .env
 	```sh
@@ -23,9 +23,9 @@ Laravel 7 Starter App & admin LTE 3
 - Buat Database
 - Edit database name, database username dan database password di file .env
     ```sh
-	DB_DATABASE=your_db.
-    DB_USERNAME=your_mysql_username.
-    DB_PASSWORD=your_mysql_password.
+	DB_DATABASE=db_transaction.
+    DB_USERNAME=root.
+    DB_PASSWORD=.
 	```
 - Migrate table
 	```sh
@@ -45,15 +45,3 @@ Laravel 7 Starter App & admin LTE 3
 	Username :  admin@admin.com
     Password :  password
 	```
- ## Author
-Isengoding – isengoding@gmail.com
-
-[https://github.com/isengoding/](https://github.com/isengoding/)
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- <a href="http://isengoding.my.id" target="_blank">isengoding.my.id</a>.
-
