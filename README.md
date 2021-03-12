@@ -1,6 +1,6 @@
 ## About Transaction Laravel 7
 
-Laravel 7 Starter App & admin LTE 3
+Laravel 7 & admin LTE 3
 
 ## Installasi
 - Download repository dan ekstrak atau clone repository
