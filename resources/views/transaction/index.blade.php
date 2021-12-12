@@ -245,7 +245,7 @@
                         <h3 class="font-weight-bold text-primary">Kembalian:</h3>
                         <h1 class="font-weight-bold text-primary" id="kembalian"></h1>
                     </div>
-                    
+
                     <div class="modal-footer justify-content-center">
                         <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
                         <button type="submit" class="btn btn-primary" id="saveButton" disabled onClick="openWindowReload(this)">Save transaction</button>
@@ -258,7 +258,7 @@
     </section>
     <!-- /.content -->
 </div>
-    
+
 @endsection
     <!-- © 2020 Copyright: Tahu Coding -->
     <!-- Ini error harusnya bisa dinamis ambil value dari controller tp agar cepet ya biar aja gini silahkan modifikasi  -->
@@ -308,7 +308,7 @@
                 ',00';
 
             cek(bayar, jumlah);
-            const saveButton = document.getElementById("saveButton");   
+            const saveButton = document.getElementById("saveButton");
 
             if(jumlah === 0){
                 saveButton.disabled = true;
@@ -317,7 +317,7 @@
         };
 
         function cek(bayar, jumlah) {
-            const saveButton = document.getElementById("saveButton");   
+            const saveButton = document.getElementById("saveButton");
 
             if (bayar < jumlah) {
                 saveButton.disabled = true;
